@@ -1,0 +1,117 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(148, 38%, 91%);
+}
+
+
+.main_container {
+    width: 100% ;
+    height: 100% ;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    gap: 170px;
+
+}
+
+.col-md-4 {
+    background: white;
+    border-radius: 20px;
+    width: 600px;
+    height: 550px;
+    padding: 50px;
+    padding-top: 80px;
+}
+
+    
+.form-control{
+    margin-bottom: 30px;
+}
+
+.rw h4{
+    font-size: 13px;
+    font-family: "Karla ";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.color_input{
+    width:80px;
+}
+
+.tag1{
+    display: flex;
+    align-items: center;
+    gap: 235px;
+}
+
+.tag2{
+    display: flex;
+    align-items: center;
+    gap: 205px;
+}
+
+.tag3{
+    display: flex;
+    align-items: center;
+    gap: 230px;
+}
+
+.tag4{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 160px;
+}
+
+.color_inputs{
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    gap: 20px;
+}
+
+.form-select {
+    margin-top: -26px; 
+}
+
+
+.draw_space{
+    width: 1000px;
+    height: 550px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 5px solid hsl(169, 82%, 27%);
+    padding: 50px;
+    overflow: hidden;
+}
+
+.draw_space h1{
+    font-size: 50px;
+    font-family: "Karla ";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 244px;
+   
+   
+}
+
+.box{
+    transition: 0.5s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
