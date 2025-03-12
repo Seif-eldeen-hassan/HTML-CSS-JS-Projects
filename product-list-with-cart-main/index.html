@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=DM+Serif+Text:ital@0;1&family=DynaPuff:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Mystery+Quest&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Iso&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zen+Dots&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Product list with cart</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+  <div class="deserts">
+      <h1 class="title"> Deserts </h1>
+      <div class="rows">
+        <div class="row">
+            <div class="product">
+                <div class="product_box">
+                    <img class="product_img " src="./assets/images/image-waffle-desktop.jpg">
+                    <div class="add_cart " id="add">
+                        <img class="cart_icon " src="./assets/images/icon-add-to-cart.svg">
+                        <h2 class="add_text "> Add to Cart </h2>
+                    </div>
+                    <div class="add_cart picking none">
+                      <img class="indecrement_icon minus " src="./assets/images/minus-svgrepo-com.svg">
+                      <img class="indecrement_icon plus " src="./assets/images/plus-svgrepo-com.svg">
+                      <h1 class="quan "> 1 </h1>
+                    </div>
+                </div>
+                <div class="text_box">
+                  <h3 class="category">  Waffle </h3>
+                  <h2 class="product_name"> Waffle with Berries </h2>
+                  <h2 class="price"> $6.50 </h2>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_box">
+                    <img class="product_img" src="./assets/images/image-creme-brulee-desktop.jpg">
+                    <div class="add_cart " id="add">
+                      <img class="cart_icon" src="./assets/images/icon-add-to-cart.svg">
+                      <h2 class="add_text"> Add to Cart </h2>
+                    </div>
+                    <div class="add_cart picking none">
+                      <img class="indecrement_icon minus " src="./assets/images/minus-svgrepo-com.svg">
+                      <img class="indecrement_icon plus " src="./assets/images/plus-svgrepo-com.svg">
+                      <h1 class="quan "> 1 </h1>
+                    </div>
+                </div>
+                <div class="text_box">
+                  <h3 class="category">  Crème Brûlée </h3>
+                  <h2 class="product_name"> Vanilla Bean Crème Brûlée </h2>
+                  <h2 class="price"> $7.00 </h2>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_box">
+                  <img class="product_img" src="./assets/images/image-macaron-desktop.jpg">
+                  <div class="add_cart" id="add" >
+                    <img class="cart_icon" src="./assets/images/icon-add-to-cart.svg">
+                    <h2 class="add_text"> Add to Cart </h2>
+                  </div>
+                  <div class="add_cart picking none">
+                    <img class="indecrement_icon minus " src="./assets/images/minus-svgrepo-com.svg">
+                    <img class="indecrement_icon plus " src="./assets/images/plus-svgrepo-com.svg">
+                    <h1 class="quan "> 1</h1>
+                  </div>
+                </div>
+                <div class="text_box">
+                  <h3 class="category">  Macaron </h3>
+                  <h2 class="product_name"> Macaron Mix of Five </h2>
+                  <h2 class="price"> $8.00 </h2>
+                </div>
+            </div> 
+        </div>
+
+        <div class="row">
+          <div class="product">
+              <div class="product_box">
+                  <img class="product_img" src="./assets/images/image-tiramisu-desktop.jpg">
+                  <div class="add_cart" id="add">
+                      <img class="cart_icon" src="./assets/images/icon-add-to-cart.svg">
+                      <h2 class="add_text"> Add to Cart </h2>
+                  </div>
+                  <div class="add_cart picking none">
+                    <img class="indecrement_icon minus " src="./assets/images/minus-svgrepo-com.svg">
+                    <img class="indecrement_icon plus " src="./assets/images/plus-svgrepo-com.svg">
+                    <h1 class="quan "> 1 </h1>
+                  </div>
+              </div>
+              <div class="text_box">
+                <h3 class="category">  Tiramisu </h3>
+                <h2 class="product_name"> Classic Tiramisu </h2>
+                <h2 class="price"> $5.50 </h2>
+              </div>
+          </div>
+          <div class="product">
+              <div class="product_box">
+                  <img class="product_img" src="./assets/images/image-baklava-desktop.jpg">
+                  <div class="add_cart" id="add">
+                    <img class="cart_icon" src="./assets/images/icon-add-to-cart.svg">
+                    <h2 class="add_text"> Add to Cart </h2>
+                  </div>
+                  <div class="add_cart picking none">
+                    <img class="indecrement_icon minus " src="./assets/images/minus-svgrepo-com.svg">
+                    <img class="indecrement_icon plus " src="./assets/images/plus-svgrepo-com.svg">
+                    <h1 class="quan "> 1 </h1>
+                  </div>
+              </div>
+              <div class="text_box">
+                <h3 class="category">  Baklava </h3>
+                <h2 class="product_name"> Pistachio Baklava </h2>
+                <h2 class="price"> $4.00 </h2>
+              </div>
+          </div>
+
+          <div class="product">
+              <div class="product_box">
+                <img class="product_img" src="./assets/images/image-meringue-desktop.jpg">
+                <div class="add_cart" id="add">
+                  <img class="cart_icon" src="./assets/images/icon-add-to-cart.svg">
+                  <h2 class="add_text"> Add to Cart </h2>
+                </div>
+                <div class="add_cart picking none">
+                  <img class="indecrement_icon minus " src="./assets/images/minus-svgrepo-com.svg">
+                  <img class="indecrement_icon plus " src="./assets/images/plus-svgrepo-com.svg">
+                  <h1 class="quan "> 1 </h1>
+                </div>
+              </div>
+              <div class="text_box">
+                <h3 class="category">  Pie </h3>
+                <h2 class="product_name"> Lemon Meringue Pie </h2>
+                <h2 class="price"> $5.00 </h2>
+              </div>
+          </div> 
+        </div>
+
+        <div class="row">
+          <div class="product">
+              <div class="product_box">
+                  <img class="product_img" src="./assets/images/image-cake-desktop.jpg">
+                  <div class="add_cart" id="add">
+                      <img class="cart_icon" src="./assets/images/icon-add-to-cart.svg">
+                      <h2 class="add_text"> Add to Cart </h2>
+                  </div>
+                  <div class="add_cart picking none">
+                    <img class="indecrement_icon minus " src="./assets/images/minus-svgrepo-com.svg">
+                    <img class="indecrement_icon plus " src="./assets/images/plus-svgrepo-com.svg">
+                    <h1 class="quan "> 1 </h1>
+                  </div>
+              </div>
+              <div class="text_box">
+                <h3 class="category">  Cake </h3>
+                <h2 class="product_name">  Red Velvet Cake </h2>
+                <h2 class="price"> $4.50 </h2>
+              </div>
+          </div>
+          <div class="product">
+              <div class="product_box">
+                  <img class="product_img" src="./assets/images/image-brownie-desktop.jpg">
+                  <div class="add_cart" id="add">
+                    <img class="cart_icon" src="./assets/images/icon-add-to-cart.svg">
+                    <h2 class="add_text"> Add to Cart </h2>
+                  </div>
+                  <div class="add_cart picking none">
+                    <img class="indecrement_icon minus " src="./assets/images/minus-svgrepo-com.svg">
+                    <img class="indecrement_icon plus " src="./assets/images/plus-svgrepo-com.svg">
+                    <h1 class="quan "> 1</h1>
+                  </div>
+              </div>
+              <div class="text_box">
+                <h3 class="category">  Brownie </h3>
+                <h2 class="product_name"> Salted Caramel Brownie </h2>
+                <h2 class="price"> $5.50 </h2>
+              </div>
+          </div>
+
+          <div class="product">
+              <div class="product_box">
+                <img class="product_img" src="./assets/images/image-panna-cotta-desktop.jpg">
+                <div class="add_cart" id="add">
+                  <img class="cart_icon" src="./assets/images/icon-add-to-cart.svg">
+                  <h2 class="add_text"> Add to Cart </h2>
+                </div>
+                <div class="add_cart picking none">
+                  <img class="indecrement_icon minus " src="./assets/images/minus-svgrepo-com.svg">
+                  <img class="indecrement_icon plus " src="./assets/images/plus-svgrepo-com.svg">
+                  <h1 class="quan "> 1</h1>
+                </div>
+              </div>
+              <div class="text_box">
+                <h3 class="category">  Panna Cotta </h3>
+                <h2 class="product_name"> Vanilla Panna Cotta </h2>
+                <h2 class="price"> $6.50 </h2>
+              </div>
+          </div> 
+        </div>
+
+
+      </div>
+  </div>
+  <div class="cart">
+    <h1 class="cart_title">Your Cart (0) </h1>
+    <img class="empty_cart_icon  " src="./assets/images/illustration-empty-cart.svg">
+    <h2 class="empty_text  "> Your added items will appear here </h2>
+    <h3 class="Total none"> $0</h3>
+    
+  </div>
+
+
+
+
+
+
+
+
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
