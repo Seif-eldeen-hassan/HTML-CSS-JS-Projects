@@ -1,0 +1,130 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container{
+    width: 850px;
+    height: 550px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.main_container .left_side{
+    padding-top: 25px;
+    padding-left: 70px;
+}
+
+.main_container .left_side .text h1{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(234, 29%, 20%);
+    font-size: 50px;
+      
+}
+
+.main_container .left_side .text p{
+    color: hsl(235, 18%, 26%);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+}
+
+.main_container .left_side .text .rows .row1{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.main_container .left_side .text .rows .row1 h2{
+    color: hsl(235, 18%, 26%);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.main_container .left_side .email_input{
+    width: 335px;
+    height: 50px;
+   
+    
+   
+}
+
+
+
+
+.main_container .left_side .email p{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.email_input::placeholder {
+    color: rgba(0, 0, 0, 0.3); 
+}
+
+
+.main_container .left_side .email{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_container .left_side .submit {
+    margin-top: 20px;
+    background-color: hsl(234, 29%, 20%);
+    width: 335px;
+    height: 45px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.image{
+    height: 500px;
+    margin-left: 35px;
+    
+}
+
+.invalid_input{
+    color:hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 67% , 0.2);
+    border-color: hsl(4, 100%, 67%);
+}
+
+.email_text{
+    display: flex;
+    align-items: center;
+    gap:180px;
+}
+
+.invalid_message{
+    color:hsl(4, 100%, 67%);
+}
+
