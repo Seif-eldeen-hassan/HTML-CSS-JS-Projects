@@ -1,0 +1,79 @@
+.add_ons{
+    margin-top: 35px;
+}
+
+.add{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 85px;
+    background-color: transparent;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1.7px solid #ddd; 
+    cursor: pointer;
+}
+
+.right_add{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.add:hover{
+    border-color:hsl(243, 100%, 62%) ;
+}
+
+
+.right_add .add_text h1{
+    color: hsl(213, 96%, 18%);
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.right_add .add_text h2{
+    color: hsl(231, 11%, 63%);
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.right_add .add_text{
+    margin-top: 9px;
+}
+
+.add h3{
+    color: hsl(243, 100%, 62%);
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.checkbox1{
+    width: 20px;
+    height: 20px;
+    box-shadow: none!important;
+}
+
+.checkbox1:checked {
+    background-color: hsl(243, 100%, 62%);
+    border-color: hsl(243, 100%, 62%);
+}
+
+.step3_buttons{
+    margin-top: 55px !important;
+    margin-left: 15px !important;
+}
+
+.go_back_button:hover{
+    color: hsl(213, 96%, 18%);
+}
+

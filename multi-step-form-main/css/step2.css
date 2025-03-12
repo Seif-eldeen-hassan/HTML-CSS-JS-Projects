@@ -1,0 +1,169 @@
+.plan_cards{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-top: 45px;
+}
+
+.plan_cards .plan_card{
+    width: 162px;
+    height: 175px;
+    background-color: transparent;
+    border: 1.7px solid #ddd; 
+    border-radius: 12px; 
+    cursor: pointer;
+}
+
+.plan_cards .plan_card:hover{
+   
+    border-color: hsl(243, 100%, 62%);
+}
+
+.plan_cards .plan_card .plan_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 40px;
+}   
+
+.plan_cards .plan_card .plan_text h1{
+    color: hsl(213, 96%, 18%);
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.plan_cards .plan_card .plan_text h2{
+    color: hsl(231, 11%, 63%);
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.ic{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 43px;
+    height: 43px;
+}
+
+.plan_choosed{
+  background-color: hsl(243, 100%, 62% ,  0.05) !important; 
+  border-color: hsl(243, 100%, 62%)!important;
+}
+
+/* Base Switch Style */
+.right_side .switch_plan {
+    height: 22px;
+    width: 45px;
+    box-shadow: none !important;
+    background-color: hsl(213, 96%, 18%) !important; /* Keep the dark blue background */
+    border: none;
+    outline: none;
+    appearance: none; /* Remove default styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    border-radius: 50px; /* Keep it rounded */
+    position: relative;
+    margin-bottom: 10px;
+}
+
+/* Remove the default focus effect */
+.right_side .switch_plan:focus,
+.right_side .switch_plan:active {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* Styling the Thumb (Circular part) */
+.right_side .switch_plan::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    background-color: white !important; /* Keep the circle white */
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+
+/* Move the Thumb to the Right when ON */
+.right_side .switch_plan:checked::before {
+    transform: translateX(23px); /* Moves the white thumb right */
+}
+
+.switch_plan_box{
+    background-color: hsl(243, 100%, 62% ,  0.04); 
+    border-radius: 9px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    width:527px;
+    
+}
+
+.plan_deafult{
+    color: hsl(231, 11%, 63%);
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.month_year_plan{
+    color: hsl(213, 96%, 18%) !important;
+}
+
+.nxt_button{
+    background-color: hsl(213, 96%, 18%);
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style: normal;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.go_back_button{
+    background-color: transparent;
+    color: hsl(231, 11%, 63%);
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    border: none;
+    padding: 20px;
+    padding-left: 2px;
+    padding-top: 20px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap:340px;
+    margin-top: 80px;
+}
+
+.offer{
+    color: hsl(213, 96%, 18%);
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+
+}
+
+

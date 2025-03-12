@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Multi-step form</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/step4.css">
+  <link rel="stylesheet" href="./css/step3.css">
+  <link rel="stylesheet" href="./css/step2.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=DM+Serif+Text:ital@0;1&family=DynaPuff:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Mystery+Quest&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Iso&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="step1_card">
+      <div class="left_side">
+          <div class="steps">
+              <div class="step">
+                  <h1 class="number current_step"> 1 </h1>
+                  <div class="step_num_name">
+                    <h3 class="step_num"> STEP 1 </h3>
+                    <h4 class="step_name"> YOUR INFO </h4>
+                  </div>
+              </div>
+              <div class="step">
+                <h1 class="number "> 2 </h1>
+                <div class="step_num_name">
+                  <h3 class="step_num"> STEP 2 </h3>
+                  <h4 class="step_name"> SELECT PLAN </h4>
+                </div>
+              </div>
+              <div class="step">
+                <h1 class="number"> 3 </h1>
+                <div class="step_num_name">
+                  <h3 class="step_num"> STEP 3 </h3>
+                  <h4 class="step_name"> ADD-ONS </h4>
+                </div>
+              </div>
+              <div class="step">
+                <h1 class="number"> 4 </h1>
+                <div class="step_num_name">
+                  <h3 class="step_num"> STEP 4 </h3>
+                  <h4 class="step_name"> SUMMARY </h4>
+                </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="right_side step1 ">
+        <div class="text_group">
+          <h1>Personal info</h1> 
+          <h2>Please provide your name, email address, and phone number.</h2> 
+        </div>
+        <div class="inputs">
+            <div class="input">
+              <div class="input_text">
+                <h3>Name</h3>
+                <h3 class="error_message"> </h3>
+              </div>
+              <input  class="form-control"  placeholder="e.g. Stephen King" >
+            </div>
+            <div class="input">
+              <div class="input_text">
+                <h3>Email Address</h3>
+                <h3 class="error_message"> </h3>
+              </div>
+              <input  class="form-control"  placeholder="e.g. stephenking@lorem.com" >
+            </div>
+            <div class="input">
+              <div class="input_text">
+                <h3>Phone Number</h3>
+                <h3 class="error_message"> </h3>
+              </div>
+              <input  class="form-control"  placeholder="e.g. +1 234 567 890" >
+            </div>
+        </div>
+        <button type="button" class="btn btn-dark button">Next Step</button>
+    </div>
+  
+
+
+
+  <div class="right_side step2 remove_past">
+    <div class="text_group">
+      <h1>Select your plan</h1> 
+      <h2>You have the option of monthly or yearly billing.</h2> 
+    </div>
+    <div class="plan_cards">
+        <div class="plan_card">
+            <img class="ic" src="./assets/images/icon-arcade.svg">
+            <div class="plan_text">
+                <h1>Arcade</h1>
+                <h2 class="cost">$9/mo</h2>
+                <h3 class="offer"></h3>
+            </div>
+        </div>
+        <div class="plan_card">
+            <img class="ic" src="./assets/images/icon-advanced.svg">
+            <div class="plan_text">
+                <h1>Advanced</h1>
+                <h2 class="cost">$12/mo</h2>
+                <h3 class="offer"></h3>
+            </div>
+        </div>
+        <div class="plan_card">
+            <img class="ic" src="./assets/images/icon-pro.svg">
+            <div class="plan_text">
+                <h1>Pro</h1>
+                <h2 class="cost">$15/mo</h2>
+                <h3 class="offer"></h3>
+            </div>
+        </div>
+
+    </div>
+    <div class="switch_plan_box">
+      <h4 class="plan_deafult plansss month_year_plan"> Monthly </h4>
+      <div class="form-check form-switch ">
+        <input class="form-check-input switch_plan" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+        <label class="form-check-label" for="flexSwitchCheckChecked"></label> 
+      </div>
+      <h4 class="plan_deafult plansss">Yearly</h4>
+    </div>
+    <div class="buttons">
+       <button type="button" class="go_back_button">Go back</button>
+       <button type="button" class="btn btn-dark nxt_button none">Next Step</button>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="right_side step3 remove_past">
+    <div class="text_group">
+      <h1>Pick add-ons</h1> 
+      <h2>Add-ons help enhance your gaming experience.</h2> 
+    </div>
+    <div class="add_ons">
+      <div class="add">
+          <div class="right_add">
+              <input class="form-check-input checkbox1" type="checkbox" value="" id="flexCheckIndeterminate">
+              <div class="add_text">
+                  <h1> Online service </h1>
+                  <h2> Access to multiplayer games </h2>
+              </div>
+         </div>
+          <h3 class="step_3_cost">+$1/mo</h3>
+      </div>
+
+      <div class="add">
+        <div class="right_add">
+            <input class="form-check-input checkbox1" type="checkbox" value="" id="flexCheckIndeterminate">
+            <div class="add_text">
+                <h1> Larger storage </h1>
+                <h2> Extra 1TB of cloud save </h2>
+            </div>
+        </div>
+        <h3 class="step_3_cost">+$2/mo</h3>
+      </div>
+
+      <div class="add">
+        <div class="right_add">
+            <input class="form-check-input checkbox1" type="checkbox" value="" id="flexCheckIndeterminate">
+            <div class="add_text">
+                <h1> Customizable Profile </h1>
+                <h2> Custom theme on your profile </h2>
+            </div>
+        </div>
+        <h3 class="step_3_cost">+$2/mo</h3>
+      </div>
+
+    </div>
+      <div class="buttons step3_buttons">
+        <button type="button" class="go_back_button step3_go_back ">Go back</button>
+        <button type="button" class="btn btn-dark nxt_button step3_nxt">Next Step</button>
+    </div>
+  </div>
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <div class="right_side step4 remove_past">
+    <div class="text_group">
+      <h1>Finishing up</h1> 
+      <h2>Double-check everything looks OK before confirming.</h2> 
+    </div>
+    <div class="services_box">
+        <div class="your_plan">
+            <div class="left_your_plan">
+                  <h1 class="plan_type"> </h1>
+                  <h2 class="change_plan_type">Change</h2>
+            </div>
+            <h3 class="your_plan_cost"></h3>
+        </div>
+        <hr style="border: none; height: 1px; background-color: hsl(231, 11%, 63%); margin: 10px 0;">
+        <div class="your_add_ons">
+          <div class="your_add_on none">
+            <h1 class="change_plan_type your_add_on_name"></h1>
+            <h2 class="your_add_on_cost"></h2>
+          </div>
+          <div class="your_add_on none">
+            <h1 class="change_plan_type your_add_on_name"> </h1>
+            <h2 class="your_add_on_cost"></h2>
+          </div>
+          <div class="your_add_on none">
+            <h1 class="change_plan_type your_add_on_name"></h1>
+            <h2 class="your_add_on_cost"></h2>
+          </div>
+        </div>
+    </div>
+    <div class="total">
+      <h1 class="total_type change_plan_type">Total (per month)</h1>
+      <h2 class="Total_cost"></h2>
+    </div>
+    <div class="step4_buttons">
+      <button type="button" class="go_back_button step4_go_back ">Go back</button>
+      <button type="button" class="btn btn-dark nxt_button step4_nxt">Next Step</button>
+    </div>
+  </div>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <div class="right_side Good_Bye remove_past">
+      <div class="bye_cont">
+        <img class="good_bye_icon" src="/assets/images/icon-thank-you.svg">
+        <h1 class="thanks">Thank you!</h1>
+        <p class="thanks_para">Thanks for confirming your subscription! We hope you have<br> fun 
+          using our platform. If you ever need support, please feel free<br>
+          to email us at support@loremgaming.com</p>
+      </div>
+  </div>
+
+</div>
+
+  
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

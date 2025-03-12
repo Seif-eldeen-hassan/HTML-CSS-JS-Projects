@@ -1,0 +1,132 @@
+.services_box{
+    width: 520px;
+    height: auto;
+    background-color: hsl(243, 100%, 62% , 0.04);
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
+
+.your_plan{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.plan_type{
+    color: hsl(213, 96%, 18%);
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+
+.change_plan_type{
+    color: hsl(231, 11%, 63%);
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    text-decoration: underline;
+    margin-top: 0px;
+    cursor: pointer;
+
+}
+
+.your_plan_cost{
+    color: hsl(213, 96%, 18%);
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 19px; 
+    margin-top: 15px;
+}
+
+.your_add_on_name{
+    text-decoration: none;
+}
+
+.your_add_on_cost{
+    color: hsla(213, 93%, 23%, 0.864);
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px; 
+}
+.your_add_ons{
+    margin-top: 20px;
+}
+
+.your_add_on{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.none{
+    display: none;
+}
+
+
+.step4_buttons{
+    display: flex;
+    align-items: center;
+    gap:323px;
+    position: fixed;
+    bottom: 200px;
+    margin-left: 10px;
+   
+}
+
+.total_type{
+    text-decoration: none;
+}
+
+.total{
+    margin-top: 40px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap:280px
+}
+.Total_cost{
+    color: hsl(243, 100%, 62%);
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px; 
+    margin-bottom: 12px;
+    
+}
+
+.Good_Bye{
+    text-align: center;
+}
+
+.good_bye_icon{
+    margin-top: 130px;
+    margin-bottom: 25px;
+}
+
+.thanks{
+    color: hsl(213, 96%, 18%);
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.thanks_para{
+    color: hsl(231, 11%, 63%);
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.bye_cont{
+    margin-left: 30px;
+}
