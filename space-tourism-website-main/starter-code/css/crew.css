@@ -1,0 +1,90 @@
+body{
+    background-image: url("/assets/crew/background-crew-desktop.jpg");
+    overflow-y: hidden;
+}
+
+.page_number{
+    margin-right: 25px;
+    font-family: "Barlow";
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 30px;
+    
+}
+
+.page_title{
+    font-family: "Barlow";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 30px;
+    margin-left: 10.5%;
+    margin-top: 3%;
+}
+
+.crew_text{
+    margin-left: 200px;
+    margin-bottom: 150px;
+    margin-top: 130px;
+}
+
+.job_title{
+    font-family: "Bellefair";
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 28px;
+}
+
+.worker_name{
+    font-family: "Bellefair";
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255);
+    font-size: 45px;
+}
+
+.job_pargraph{
+    font-family: "Barlow";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;    
+    color: #D0D6F9;
+    line-height: 1.8;
+    margin-bottom: 230px;
+}
+
+.crew{
+    display: flex;
+    align-items: center;
+    gap: 450px;
+}
+
+.worker_image{
+ height: 750px;
+}
+.dots{
+    display: flex;
+    gap:30px;
+    margin-left: 8px;
+
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+}
+
+.dot:hover{
+    background-color: white;
+}
+
+.choosed_dot{
+    background-color: white;
+}

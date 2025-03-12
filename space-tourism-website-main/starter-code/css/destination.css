@@ -1,0 +1,146 @@
+body{
+    background-image: url("/assets/destination/background-destination-desktop.jpg") !important ;
+}
+
+.page_number{
+    margin-right: 25px;
+    font-family: "Barlow";
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 30px;
+    
+}
+
+.page_title{
+    
+    font-family: "Barlow";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 30px;
+    margin-left: 10.5%;
+    margin-top: 3%;
+}
+
+.planet_details{
+    margin-top: 7%;
+    margin-left: 13%;
+    display: flex;
+    gap: 300px;
+}
+
+.planets_list{
+    display: flex;
+    gap:30px;
+    margin-bottom: 40px;
+    
+}
+
+.planet{
+    font-family: "Barlow";
+    font-weight: 300;
+    font-style: normal;
+    color: #D0D6F9;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.planet::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0; 
+    background-color: white;
+    top: 40px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    transition: width 0.4s ease-in-out;
+}
+
+.planet:hover::after{
+    width: 100%;
+}
+
+.planet_choosed{
+    position: relative;
+    color: white;
+}
+
+.planet_choosed:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%; 
+    background-color: white;
+    top: 40px; 
+    left: 21px;
+    
+}
+
+.planet_name{
+    font-family: "Bellefair";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.planet_discription{
+    font-family: "Barlow";
+    font-weight: 300;
+    font-style: normal;
+    color: #D0D6F9;
+    font-size: 16px;
+    margin-top: 0px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.planet_line{
+    opacity: 50%;
+    margin-bottom: 30px;
+}
+
+.info_title{
+    font-family: "Barlow";
+    font-weight: 400;
+    font-style: normal;
+    color: #D0D6F9;
+    font-size: 13px;
+}
+
+.travel_title{
+    margin-left: 110px;
+}
+
+.distance_data{
+    font-family: "Bellefair";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+}
+
+.travel_time{
+    font-family: "Bellefair";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+}
+
+.right_side_planet{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    gap:102px
+}
