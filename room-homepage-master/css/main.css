@@ -1,0 +1,188 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.upper_page{
+    width: 100%;
+    height: 68%;
+    display: flex;
+}
+
+
+.slide_image{
+    width: 60%;
+    height: 100%;
+    background-image: url("/images/desktop-image-hero-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.right_half{
+    width: 40%;
+    height: 100%;
+    padding: 130px 130px 160px 130px;
+    position: relative;
+    
+}
+
+.title{
+
+    font-family: "League Spartan";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    color: black;
+    margin-bottom: 25px;
+      
+}
+
+.discription{
+    font-family: "League Spartan";
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(0, 0%, 63%);
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+.shop{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.arrow{
+    height: 12px;
+    margin-top: 5px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.shop_now{
+    font-family: "League Spartan";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 12px;
+    cursor: pointer;
+
+}
+.shop_now:hover{
+    color: hsl(0, 0%, 63%);
+}
+
+.left_bt{
+    position: absolute;
+    width: 90px;
+    height: 85px;
+    background-color: black;
+    border: none;
+    bottom: 0px;
+    left: 0px;
+}
+
+.left_bt:hover{
+    background-color: hsl(0, 0%, 27%);
+    
+}
+
+.right_bt{
+    position: absolute;
+    width: 90px;
+    height: 85px;
+    background-color: black;
+    border: none;
+    bottom: 0px;
+    left: 90px;
+}
+
+.right_bt:hover{
+    background-color: hsl(0, 0%, 27%);
+    
+}
+
+
+.lower_page{
+    height: 32%;
+    display: flex;
+}
+
+.about{
+    width:39.32%;
+    height: 100%;
+    padding: 72px 50px 70px 80px;
+}
+
+.dark_about{
+    height: 100%;
+    width: 30%;
+}
+
+.about_title{
+    font-family: "League Spartan";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.about_dis{
+    font-family: "League Spartan";
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(0, 0%, 63%);
+    font-size: 18px;
+}
+
+.light_about{
+    width: 30.68%;
+}
+
+.nav_bar{
+    display: flex;
+    gap: 100px;
+   
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
+}
+
+.nav_button{
+    font-family: "League Spartan";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+}
+
+.nav_button:hover:after{
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    height: 3px;
+    content: "";
+    left: 26%;
+    top: 40px;
+}
+
+.nav_bar{
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+.room_logo{
+    height: 18px;
+    margin-top: 3px;
+}
